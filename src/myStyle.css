@@ -1,0 +1,271 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  background-color: #f1f1f2;
+  min-height: 100vh;
+}
+
+.jumia-top{
+    color:#f68b1e;
+}
+.span, .jumia-input{
+    border: none;
+}
+.border{
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+}
+.jumia-input:focus{
+    box-shadow: none;
+}
+
+.btn-search{
+    background-color: #f68b1e;
+    color: white;
+}
+
+.fa-user{
+    color: black;
+}
+.user{
+    background-color: inherit;
+    color: black;
+    border: none;
+}
+
+.user:hover, .user:focus{
+    background-color:#f68b1e;
+    color: white;
+    box-shadow: none;
+}
+
+.faa{
+    color: #7e7e7f;
+    font-size: 20px;
+}
+.dropdown-item h1{
+    color:#7e7e7f;
+    font-size: 15px;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus{
+   border: none;
+   box-shadow: none
+}
+
+.help:hover, .help:focus{
+    color:#f68b1e;
+}
+
+.faa:hover, .faa:focus{
+    color:#f68b1e;
+}
+                                                                  /* card */
+.card-jumia{
+    min-height: 70vh;
+}
+
+.card:hover{
+    transform: scale(105%);
+}
+
+.cardd:hover{
+    transform: scale(105%);
+}
+
+.basenav-1{
+    background-color: #313133;
+    min-height: 25vh;
+}
+
+.borderr{
+    border: 1px solid white;
+    min-height: 25vhyy;
+}
+
+.one{
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.icons-card{
+ margin-top: 11px;
+ font-size: 20px;
+ width: 23%;
+}
+
+
+   .card-nav{
+    font-size: 1vw;
+    /* height: 50vh; */
+   }
+
+   .card-nav li{
+    height: 35px;
+   }
+
+   .one{
+    height: 55vh;
+   }
+
+   .card-nav a:hover, .card-nav li:hover{
+    color:#f68b1e !important;
+   }
+
+                                                            /* carousel  */
+
+ .carousell{
+    height: 55vh;
+
+ }
+
+ .boxx{
+    max-height: 25.5vh;
+ }
+
+ .jumia-gif{
+    height: 27vh;
+ }
+
+ .box{
+    min-height: 25.5vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    /* margin-top: 10%; */
+    /* margin-bottom: 10%; */
+ }
+
+ /* .jumia-gif{
+    min-height:100%;
+ } */
+
+ .d-nonne{
+    display: none;
+ }
+
+ .card-jumia-1{
+    background-color:white;
+    min-height: 30vh;
+ }
+ .card{
+    border: none;
+ }
+
+
+ .red{
+    background-color: #e61601;
+    color: white;
+ }
+
+ .bg-grey{
+    background-color: #d6d6d6;
+ }
+.fs-13{
+    font-size: 14px;
+}
+.card-jumia-2{
+    min-height: fit-content;
+    max-height: 45vh;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.orange{
+    background-color: #ff550c;
+}
+
+.blue{
+    background-color: #276076;
+}
+
+.official-store{
+    height: 32vh;
+}
+.basenav-2 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+}
+.basenav-2{
+    background-color: #313133;
+}
+
+                                        /* holiday  */
+   
+@media screen and (max-width:700px){
+    form,.dropdown,.help{
+        margin-bottom: 7px;
+    }
+
+    .card-nav{
+        width:calc(30vw) !important;
+        font-size: 1.6vw;
+    }
+    .icons-card{
+        margin-top: 6px;
+        width: 30%;
+        font-size: 20px;
+    }
+    .card{
+        margin: 10px 0;
+     }
+     .carousell{
+        height: fit-content;
+     }
+
+     .jumia-gif{
+        height: 100%;
+     }
+
+     .box-111{
+        height: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+     }
+     .box{
+        height: 100%;
+     }
+     .right-card{
+        min-height: 27vh;
+        margin: 5px 0 7px -7px;
+        background-color: transparent;
+     }
+
+     .carousell{
+        max-height: 20vh !important;
+     }
+
+}
+
+@media screen and (max-width:900px){
+    .d-nonne{
+        display: block;
+     }
+    
+     .d-none-2{
+        display: none;
+     }
+}
+
+/* @media screen and (min-width:900px){
+    .card-jumia-2, .one, .carousell, .right-card{
+        max-height: 45vh;
+        background-color: teal;
+     }
+} */
+
+
+

@@ -1,0 +1,20 @@
+import { useState } from 'react'
+const App = () => {
+  let myName= "dipo"
+ 
+  const [myAge, setmyAge] = useState(9)
+  console.log(myAge);
+  
+  const increaseAge = () => {
+  let newage = myAge
+  newage++
+    }
+
+  return (
+    <>
+     <h1>my name is {myName}</h1>
+     <h1>I am {myAge} years old</h1>
+     <button onClick={() => {setmyAge(myAge+1)}}>increaseAge</button>
+    </>
+  )
+}
